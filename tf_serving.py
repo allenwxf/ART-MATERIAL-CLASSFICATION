@@ -21,6 +21,7 @@ def index():
     files = os.listdir(artImgDir)
     for file in files:
         if not os.path.isdir(file):
+            file = file.encode("utf-8", errors="surrogateescape").decode("utf-8")
             if file in sekeys:
                 imgencoding = savedEncodingh5[file][:]
             else:
@@ -32,7 +33,8 @@ def index():
     results = []
     targets = os.listdir(targetImgDir)
     for fileKey in range(len(targets)):
-        res = get_art_distance(targetImgDir, targets[fileKey], database)
+        file = targets[fileKey].encode("utf-8", errors="surrogateescape").decode("utf-8")
+        res = get_art_distance(targetImgDir, file, database)
         results.append(res)
 
     return _ret(data={"similarities": results})
@@ -41,7 +43,8 @@ def index():
 
 
 def get_img_feature(img_file):
-    img1 = cv2.imread(img_file, cv2.IMREAD_COLOR)
+    # img1 = cv2.imread(img_file, cv2.IMREAD_COLOR)
+    img1 = cv2.imdecode(np.fromfile(img_file, dtype=np.uint8), cv2.IMREAD_COLOR)
     img2 = cv2.resize(img1, resizeShape, interpolation=cv2.INTER_CUBIC)
     img = img2[..., ::-1]
     # img = np.around(np.transpose(img, (2, 0, 1)) / 255.0, decimals=12)
