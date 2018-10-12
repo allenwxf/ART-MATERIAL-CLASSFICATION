@@ -190,7 +190,8 @@ def load_weights():
 #     return train_set_x_orig, train_set_y_orig, test_set_x_orig, test_set_y_orig, classes
 
 def img_to_encoding(image_path, resizeShape, model):
-    img1 = cv2.imread(image_path, cv2.IMREAD_COLOR)
+    # img1 = cv2.imread(image_path, cv2.IMREAD_COLOR)
+    img1 = cv2.imdecode(np.fromfile(image_path, dtype=np.uint8), cv2.IMREAD_COLOR)
     img2 = cv2.resize(img1, resizeShape, interpolation=cv2.INTER_CUBIC)
 
     img = img2[..., ::-1]

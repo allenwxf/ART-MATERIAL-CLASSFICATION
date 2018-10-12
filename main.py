@@ -40,9 +40,13 @@ start = datetime.datetime.now()
 savedEncodingh5 = h5py.File(imgEncodingPath,'a')
 sekeys = list(savedEncodingh5.keys())
 
+i = 0
 for file in files:
     if not os.path.isdir(file):
+        file = file.encode("utf-8", errors="surrogateescape").decode("utf-8")
         if file in sekeys:
+            print(file)
+            i+=1
             imgencoding = savedEncodingh5[file][:]
         else:
             imgencoding = img_to_encoding(artImgDir + file, resizeShape, FRmodel)
@@ -50,7 +54,9 @@ for file in files:
             # savedEncodingh5.create_dataset(file, data=imgencoding)
         print(imgencoding)
         database[file] = imgencoding
-print(savedEncodingh5["B1_2i.png"], savedEncodingh5["B1_2i.png"][:])
+# print(savedEncodingh5["B1_2i.png"], savedEncodingh5["B1_2i.png"][:])
+
+print("======================" + str(i))
 
 savedEncodingh5.close()
 
@@ -123,4 +129,5 @@ def who_is_it(targetImgDir, imagePath, file, db, resizeShape, model):
 targets = os.listdir(targetImgDir)
 
 for fileKey in range(len(targets)):
-    who_is_it(targetImgDir, artImgDir, targets[fileKey], database, resizeShape, FRmodel)
+    file = targets[fileKey].encode("utf-8", errors="surrogateescape").decode("utf-8")
+    who_is_it(targetImgDir, artImgDir, file, database, resizeShape, FRmodel)
