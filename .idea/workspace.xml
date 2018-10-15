@@ -1,69 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9987200f-44cb-410c-b47e-b568852abac7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/imgencoding.h5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fr_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/fr_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B101i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B10_4i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B10i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B11i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B12i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B13i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B15i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B16i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B17i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B18i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B19i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B1_2i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B1_72i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B1_75i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B1_77i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B1i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B20i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B21i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B22i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B25i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B26i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B27i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B28i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B2i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B31_2i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B34i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B36i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B37i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B39i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B3i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B40i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B41_1i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B41i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B43i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B44i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B45i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B46i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B48i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B4i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B60i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B64i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B65i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B67i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B6i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B74i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B76_3i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B77i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B82i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B86_2i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B8i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B92_3i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B93i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B95i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/B96_3i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/target/B1_2i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/target/B1_72i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf_serving.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_serving.py" afterDir="false" />
-    </list>
+    <list default="true" id="9987200f-44cb-410c-b47e-b568852abac7" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +20,7 @@
     <session id="1882696544">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="1" />
@@ -131,20 +69,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="48" column="16" lean-forward="true" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+            <state relative-caret-position="535">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tf_serving.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="47" column="31" lean-forward="true" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+            <state relative-caret-position="357">
+              <caret line="57" column="49" lean-forward="true" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
                 <marker date="1539329165675" expanded="true" signature="382:383" ph="..." />
@@ -467,15 +405,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1936" height="1066" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5891813" visible="true" weight="0.19083156" />
       <window_info id="Structure" order="1" sideWeight="0.41081873" side_tool="true" weight="0.18070363" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.251634" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.251634" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -800,22 +737,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="48" column="16" lean-forward="true" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tf_serving.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="47" column="31" lean-forward="true" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+        <state relative-caret-position="357">
+          <caret line="57" column="49" lean-forward="true" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
             <marker date="1539329165675" expanded="true" signature="382:383" ph="..." />
             <marker date="1539329165675" expanded="true" signature="1321:2518" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
     </entry>
